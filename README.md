@@ -1,7 +1,9 @@
-# elm-parcel-example
+# elm-application-parcel
+
 An example Elm application built with Parcel.
 
 ## Running the application
+
 To run the example application first install the dependencies.
 
 ```bash
@@ -11,14 +13,15 @@ npm install
 Then just run the following command and `parcel` will serve the application.
 
 ```bash
-npx parcel src/index.html
+npm start
 ```
 
 ## Building for production
+
 When you want to build the optimized production files you just run the following command.
 
 ```bash
-npx parcel build src/index.html
+npm build
 ```
 
-Afterwards the compiled production assets will be located in the `dist` folder. 
+Afterwards the compiled production assets will be located in the `dist` folder.

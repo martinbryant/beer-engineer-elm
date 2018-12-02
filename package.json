@@ -1,23 +1,24 @@
 {
-  "name": "elm-parcel-example",
+  "name": "elm-parcel-application",
   "version": "1.0.0",
-  "description": "An example Elm application built with Parcel.",
+  "description": "An example Elm application with navigation built with Parcel.",
   "main": "src/main.js",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benthepoet/elm-parcel-example.git"
+    "url": "git+https://github.com/martinbryant/beer-engineer-elm.git"
   },
-  "author": "Ben Hanna <benpaulhanna@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/benthepoet/elm-parcel-example/issues"
-  },
-  "homepage": "https://github.com/benthepoet/elm-parcel-example#readme",
+  "author": "Martin Bryant <mail@martinbryant.io>",
+  "homepage": "https://github.com/martinbryant/beer-engineer-elm#readme",
   "dependencies": {
     "parcel-bundler": "^1.10.0"
   },
   "devDependencies": {
     "elm": "^0.19.0-bugfix2",
+    "elm-format": "^0.8.1",
     "node-elm-compiler": "^5.0.1"
   }
 }
